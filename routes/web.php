@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/layouts', function () {
+    return view('layouts.app');
+});
+
+Route::get('/productos', function () {
+    return view('productos');
+});
+
+Route::get('/productos/llantas', function () {
+    return view('productos/llantas');
 });
