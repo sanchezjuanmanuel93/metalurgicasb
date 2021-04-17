@@ -35,7 +35,7 @@
                         <li><a href="#">De fundición</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Fuelles </a> </li>
+                <li><a href="{{url('productos/fuelles')}}">Fuelles </a> </li>
                 <li><a href="#">Otros </a> </li>
             </ul>
         </li>

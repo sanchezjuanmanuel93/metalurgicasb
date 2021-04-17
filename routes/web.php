@@ -32,3 +32,7 @@ Route::get('/productos/llantas', function () {
 Route::get('/productos/cubiertas', function () {
     return view('productos/cubiertas');
 });
+
+Route::get('/productos/fuelles', function () {
+    return view('productos/fuelles');
+});
