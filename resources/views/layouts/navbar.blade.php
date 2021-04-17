@@ -12,11 +12,11 @@
                         <li><a href="#">Motoneta</a></li>
                     </ul>
                 </li>
-                <li class="drop-down"><a href="#">Cubiertas</a>
+                <li class="drop-down"><a href="{{url('productos/cubiertas')}}">Cubiertas</a>
                     <ul>
-                        <li><a href="#">Niveladoras</a></li>
-                        <li><a href="#">Tapadoras</a></li>
-                        <li><a href="#">Pisa granos</a></li>
+                        <li><a href="{{url('productos/cubiertas/#niveladoras')}}">Niveladoras</a></li>
+                        <li><a href="{{url('productos/cubiertas/#tapadoras')}}">Tapadoras</a></li>
+                        <li><a href="{{url('productos/cubiertas/#pisagranos')}}">Pisa granos</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Ruedas armadas</a></li>

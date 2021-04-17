@@ -28,3 +28,7 @@ Route::get('/productos', function () {
 Route::get('/productos/llantas', function () {
     return view('productos/llantas');
 });
+
+Route::get('/productos/cubiertas', function () {
+    return view('productos/cubiertas');
+});

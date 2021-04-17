@@ -1571,3 +1571,7 @@ section {
   height: 267px;
   padding: 15px;
 }
+
+.product-cubierta{
+  max-height: 400px;
+}
