@@ -185,5 +185,9 @@
     loop: true,
     items: 1
   });
+  
+  $('.carousel').carousel({
+    interval: 2000
+  })
 
 })(jQuery);

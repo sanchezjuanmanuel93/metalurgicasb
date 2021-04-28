@@ -1,9 +1,8 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="container">
-        <h3>KnightOne</h3>
-        <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
-            placeat.</p>
+        <h3>Metalurgica SB</h3>
+        <p>Maxima calidad en fabricacion de ruedas y mazas para sembradoras.</p>
         <div class="social-links">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -12,14 +11,10 @@
             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
         <div class="copyright">
-            &copy; Copyright <strong><span>KnightOne</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>2021</span></strong>.
         </div>
         <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            All Rights Reserved
         </div>
     </div>
 </footer><!-- End Footer -->

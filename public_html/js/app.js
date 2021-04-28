@@ -2064,6 +2064,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
     loop: true,
     items: 1
   });
+  $('.carousel').carousel({
+    interval: 2000
+  });
 }(jQuery);
 
 /***/ }),

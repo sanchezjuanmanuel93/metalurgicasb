@@ -1,26 +1,58 @@
-@extends('layouts.app')@section('backgroud-image')
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex flex-column justify-content-center">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-8">
-        <h1>Metalurgica SB</h1>
-        <h2>Maxima calidad en fabricacion de ruedas y mazas para sembradoras.</h2>
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
-          data-autoplay="true"></a>
+@extends('layouts.app')
+@section('backgroud-image')
+<div class="d-flex flex-column justify-content-center">
+  <div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="{{asset('images/cta-bg.jpg')}}" class="img-fluid" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{{asset('images/cta-bg.jpg')}}" class="img-fluid" alt="">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{{asset('images/cta-bg.jpg')}}" class="img-fluid" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </div>
-</section><!-- End Hero -->
-@endsection@section('content')
-<!-- ======= Portfolio Section ======= -->
+</div>
+
+@endsection
+@section('content')
 <section id="portfolio" class="portfolio">
   <div class="container">
     <div class="section-title">
       <h2>Nuestros Productos</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-        in iste officiis commodi quidem hic quas.</p>
+      <p>Contamos con una amplia cartera de clientes cuyas marcas son mundialmente reconocidas. Metalurgica SB les
+        ofrece productos de calidad para que su maquinaria esté equipada con las mejores llantas y mazas del mercado.
+      </p>
     </div>
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center">
@@ -46,7 +78,7 @@
       <div class="col-lg-4 col-md-6 portfolio-item">
         <img src="{{asset('images/index/productos/2.jpg')}}" class=" img-fluid" alt="">
         <div class="portfolio-info">
-          <h4>Web 3</h4>
+          <h4>Ruedas armadas</h4>
           <a href="{{asset('images/index/productos/2.jpg')}}" data-gall=" portfolioGallery" class="venobox preview-link"
             title="Web 3"><i class="bx bx-plus"></i></a>
           <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -55,7 +87,7 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <img src="{{asset('images/index/productos/3.jpg')}}" class=" img-fluid" alt="">
         <div class="portfolio-info">
-          <h4>App 2</h4>
+          <h4>Placas plasticas</h4>
           <a href="{{asset('images/index/productos/3.jpg')}}" data-gall=" portfolioGallery" class="venobox preview-link"
             title="App 2"><i class="bx bx-plus"></i></a>
           <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -64,7 +96,7 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-card">
         <img src="{{asset('images/index/productos/4.jpg')}}" class=" img-fluid" alt="">
         <div class="portfolio-info">
-          <h4>Card 2</h4>
+          <h4>Cubiertas</h4>
           <a href="{{asset('images/index/productos/4.jpg')}}" data-gall=" portfolioGallery" class="venobox preview-link"
             title="Card 2"><i class="bx bx-plus"></i></a>
           <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -73,7 +105,7 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <img src="{{asset('images/index/productos/5.jpg')}}" class=" img-fluid" alt="">
         <div class="portfolio-info">
-          <h4>Web 2</h4>
+          <h4>Fuelles</h4>
           <a href="{{asset('images/index/productos/5.jpg')}}" data-gall=" portfolioGallery" class="venobox preview-link"
             title="Web 2"><i class="bx bx-plus"></i></a>
           <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -82,7 +114,7 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-app">
         <img src="{{asset('images/index/productos/6.jpg')}}" class=" img-fluid" alt="">
         <div class="portfolio-info">
-          <h4>App 3</h4>
+          <h4>Mazas</h4>
           <a href="{{asset('images/index/productos/6.jpg')}}" data-gall=" portfolioGallery" class="venobox preview-link"
             title="App 3"><i class="bx bx-plus"></i></a>
           <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
@@ -128,9 +160,6 @@
   <div class="container">
     <div class="section-title">
       <h2>Servicios</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-        in iste officiis commodi quidem hic quas.</p>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -161,10 +190,10 @@
 <section id="contact" class="contact">
   <div class="container">
     <div class="section-title">
-      <h2>Contact</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-        in iste officiis commodi quidem hic quas.</p>
+      <h2>Contacto</h2>
+      <span>Su opinión nos interesa: </span>
+      <p>Complete el siguiente formulario y nos comunicaremos a la brevedad.
+      </p>
     </div>
   </div>
   <div>
@@ -228,4 +257,5 @@
     </div>
   </div>
 </section><!-- End Contact Section -->
+</div>
 @endsection
