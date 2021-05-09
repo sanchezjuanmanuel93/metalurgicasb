@@ -4,12 +4,12 @@
         <li class="drop-down"><a href="#portfolio">Productos</a>
             <ul>
                 <li><a href="/productos">Todos</a></li>
-                <li class="drop-down"><a href="/productos/llantas">Llantas de chapa</a>
+                <li class="drop-down"><a href="{{url('/productos/llantas')}}">Llantas de chapa</a>
                     <ul>
-                        <li><a href="/productos/llantas/#pisagranos">Pisa granos</a></li>
-                        <li><a href="/productos/llantas/#tapadoras">Tapadoras</a></li>
-                        <li><a href="#">Niveladoras</a></li>
-                        <li><a href="#">Motoneta</a></li>
+                        <li><a href="{{url('productos/llantas/#pisagranos')}}">Pisa granos</a></li>
+                        <li><a href="{{url('productos/llantas/#tapadoras')}}">Tapadoras</a></li>
+                        <li><a href="{{url('productos/llantas/#niveladoras')}}">Niveladoras</a></li>
+                        <li><a href="{{url('productos/llantas/#motonetas')}}">Motonetas</a></li>
                     </ul>
                 </li>
                 <li class="drop-down"><a href="{{url('productos/cubiertas')}}">Cubiertas</a>

@@ -1430,5 +1430,116 @@
   </div>
 </section>
 
+<section id="motonetas" class="motonetas bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h4>Tipo Motoneta</h4>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-lg-12 col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col d-flex justify-content-center">
+            <a href="{{asset('images/productos/llantas/motonetas/1.png')}}" data-gall="portfolioGallery"
+              class="venobox preview-link" title="Llantas">
+              <img src="{{asset('images/productos/llantas/motonetas/1.png')}}" class="product-imagen">
+            </a>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a href="{{asset('images/productos/llantas/motonetas/2.png')}}" data-gall="portfolioGallery"
+              class="venobox preview-link" title="Llantas">
+              <img src="{{asset('images/productos/llantas/motonetas/2.png')}}" class="product-imagen">
+            </a>
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Tipo motoneta</strong>
+            <h3 class="mb-0">4” x 8”</h3>
+            <p class="card-text">Centro de 78 m/m</p>
+            <div class="mb-1 text-muted ">4 perf de 10,5 m/m P/Amarre mazaa</div>
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <table class="table table-striped">
+              <thead>
+                <th>Codigo</th>
+                <th>Medida</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>M4002</td>
+                  <td>4” x 8”</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col d-flex justify-content-center">
+            <a href="{{asset('images/productos/llantas/motonetas/3.png')}}" data-gall="portfolioGallery"
+              class="venobox preview-link" title="Llantas">
+              <img src="{{asset('images/productos/llantas/motonetas/3.png')}}" class="product-imagen">
+            </a>
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Tipo motoneta</strong>
+            <h3 class="mb-0">4” x 8”</h3>
+            <p class="card-text mb-auto">Centro de 142 m/m</p>
+            <div class="mb-1 text-muted ">6 perf de 8,5 m/m P/Amarre maza</div>
+            <table class="table table-striped">
+              <thead>
+                <th>Codigo</th>
+                <th>Medida</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>M4003</td>
+                  <td>4” x 8”</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col d-flex justify-content-center">
+            <a href="{{asset('images/productos/llantas/motonetas/4.png')}}" data-gall="portfolioGallery"
+              class="venobox preview-link" title="Llantas">
+              <img src="{{asset('images/productos/llantas/motonetas/4.png')}}" class="product-imagen">
+            </a>
+          </div>
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Tipo motoneta</strong>
+            <h3 class="mb-0">4” x 8” PROFUNDA</h3>
+            <p class="card-text mb-auto">Centro de 142 m/m</p>
+            <div class="mb-1 text-muted ">6 perf de 8,5 m/m P/Amarre maza</div>
+            <table class="table table-striped">
+              <thead>
+                <th>Codigo</th>
+                <th>Medida</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>M4010</td>
+                  <td>4” x 8”</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
 
 @endsection
