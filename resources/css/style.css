@@ -1575,3 +1575,10 @@ section {
 .product-cubierta{
   max-height: 400px;
 }
+
+.carousel-item h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: #444444;
+  text-transform: uppercase;
+}

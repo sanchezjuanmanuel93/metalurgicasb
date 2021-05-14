@@ -36,3 +36,15 @@ Route::get('/productos/cubiertas', function () {
 Route::get('/productos/fuelles', function () {
     return view('productos/fuelles');
 });
+
+Route::get('/productos/ruedas', function () {
+    return view('productos/ruedas');
+});
+
+Route::get('/productos/placas', function () {
+    return view('productos/placas');
+});
+
+Route::get('/productos/mazas', function () {
+    return view('productos/mazas');
+});

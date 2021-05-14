@@ -42,7 +42,7 @@
 
                     @include('layouts.navbar')
 
-                    <a href="#about" class="get-started-btn scrollto">Get Started</a>
+                    <a href="#about" class="get-started-btn scrollto">Whats App!</a>
                 </div>
             </div>
 

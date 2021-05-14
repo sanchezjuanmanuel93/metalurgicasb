@@ -7,28 +7,33 @@
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{asset('images/cta-bg.jpg')}}" class="img-fluid" alt="">
+          <img src="{{asset('images/index/carousel/carousel1.jpg')}}" class="img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="{{asset('images/index/carousel/carousel2.jpg')}}" class="img-fluid" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="{{asset('images/cta-bg.jpg')}}" class="img-fluid" alt="">
-
+          <img src="{{asset('images/index/carousel/carousel3.jpg')}}" class="img-fluid" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {{-- <h1>Llantas para sembradoras</h1> --}}
           </div>
         </div>
         <div class="carousel-item">
-          <img src="{{asset('images/cta-bg.jpg')}}" class="img-fluid" alt="">
+          <img src="{{asset('images/index/carousel/carousel4.jpg')}}" class="img-fluid" alt="">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            {{-- <h1>Placas plasticas para sembradoras</h1> --}}
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="{{asset('images/index/carousel/carousel4.jpg')}}" class="img-fluid" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            {{-- <h1>Ruedas armadas - Cubiertas - Fuelles - Mazas</h1> --}}
           </div>
         </div>
       </div>

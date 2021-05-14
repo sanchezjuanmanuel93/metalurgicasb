@@ -11,7 +11,7 @@
           </a> </div>
         <div class="text-center pt-4">
           <h5>Llantas de chapa</h5>
-          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="/productos/llantas">ver
+          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="{{url('/productos/llantas')}}">ver
             mas</a>
         </div>
       </div>
@@ -24,7 +24,7 @@
           </a> </div>
         <div class="text-center pt-4">
           <h5>Ruedas Armadas</h5>
-          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="/productos/llantas">ver
+          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="{{url('/productos/ruedas')}}">ver
             mas</a>
         </div>
       </div>
@@ -37,7 +37,7 @@
           </a> </div>
         <div class="text-center pt-4">
           <h5>Placas Plasticas</h5>
-          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="/productos/llantas">ver
+          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="{{url('/productos/placas')}}">ver
             mas</a>
         </div>
       </div>
@@ -52,7 +52,7 @@
           </a> </div>
         <div class="text-center pt-4">
           <h5>Cubiertas</h5>
-          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="/productos/llantas">ver
+          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="{{url('/productos/cubiertas')}}">ver
             mas</a>
         </div>
       </div>
@@ -65,7 +65,7 @@
           </a> </div>
         <div class="text-center pt-4">
           <h5>Fuelles</h5>
-          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="/productos/llantas">ver
+          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="{{url('/productos/fuelles')}}">ver
             mas</a>
         </div>
       </div>
@@ -78,7 +78,7 @@
           </a> </div>
         <div class="text-center pt-4">
           <h5>Mazas</h5>
-          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="/productos/llantas">ver
+          <a class="btn btn-primary btn-rounded btn-sm mr-1 mb-2 waves-effect waves-light" href="{{url('/productos/mazas')}}">ver
             mas</a>
         </div>
       </div>

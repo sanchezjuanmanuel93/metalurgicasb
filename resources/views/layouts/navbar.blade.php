@@ -1,9 +1,9 @@
 <nav class="nav-menu d-none d-lg-block">
     <ul>
         <li class="active"><a href="/">Inicio</a></li>
-        <li class="drop-down"><a href="#portfolio">Productos</a>
+        <li class="drop-down"><a href="#">Productos</a>
             <ul>
-                <li><a href="/productos">Todos</a></li>
+                <li><a href="{{url('/productos')}}">Todos</a></li>
                 <li class="drop-down"><a href="{{url('/productos/llantas')}}">Llantas de chapa</a>
                     <ul>
                         <li><a href="{{url('productos/llantas/#pisagranos')}}">Pisa granos</a></li>
@@ -19,20 +19,19 @@
                         <li><a href="{{url('productos/cubiertas/#pisagranos')}}">Pisa granos</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Ruedas armadas</a></li>
-                <li class="drop-down"><a href="#">Placas plasticas
+                <li><a href="{{url('/productos/ruedas')}}">Ruedas armadas</a></li>
+                <li class="drop-down"><a href="{{url('/productos/placas')}}">Placas plasticas
                     </a>
                     <ul>
-                        <li><a href="#">Soja</a></li>
-                        <li><a href="#">Maíz redondo</a></li>
-                        <li><a href="#">Maíz alargado</a></li>
-                        <li><a href="#">Motoneta</a></li>
+                        <li><a href="{{url('/productos/placas#soja')}}">Soja</a></li>
+                        <li><a href="{{url('/productos/placas#maiz-redondo')}}">Maíz redondo</a></li>
+                        <li><a href="{{url('/productos/placas#maiz-alargado')}}">Maíz alargado</a></li>
                     </ul>
                 </li>
-                <li class="drop-down"><a href="#">Mazas </a>
+                <li class="drop-down"><a href="{{url('/productos/mazas')}}">Mazas</a>
                     <ul>
-                        <li><a href="#">De chapa</a></li>
-                        <li><a href="#">De fundición</a></li>
+                        <li><a href="{{url('/productos/mazas#niveladoras')}}">Niveladoras</a></li>
+                        <li><a href="{{url('/productos/mazas#tapadoras')}}">Tapadoras</a></li>
                     </ul>
                 </li>
                 <li><a href="{{url('productos/fuelles')}}">Fuelles </a> </li>
