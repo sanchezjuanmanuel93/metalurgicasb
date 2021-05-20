@@ -42,7 +42,8 @@
 
                     @include('layouts.navbar')
 
-                    <a href="#about" class="get-started-btn scrollto">Whats App!</a>
+                    <a href="https://api.whatsapp.com/send?phone=543415425283" class="get-started-btn scrollto">Whats
+                        App!</a>
                 </div>
             </div>
 

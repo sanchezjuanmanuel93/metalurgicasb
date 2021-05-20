@@ -18749,7 +18749,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #00b371;
+  background: #288ff9;
   color: #fff;
 }
 
@@ -18767,7 +18767,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 35px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -18935,7 +18935,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #00b371;
+  background: #288ff9;
   color: #fff;
 }
 
@@ -19414,7 +19414,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #288ff9;
 }
 
 @media (max-width: 1024px) {
@@ -19741,8 +19741,8 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #288ff9;
+  border-color: #288ff9;
 }
 
 .pricing .recommended-badge {
@@ -19998,7 +19998,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #00b371;
+  background: #288ff9;
 }
 
 @-webkit-keyframes animate-loading {
@@ -20195,7 +20195,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
+  background: #288ff9;
   color: #fff;
   text-decoration: none;
 }
@@ -20209,7 +20209,7 @@ section {
 }
 
 #footer .credits a {
-  color: #00b371;
+  color: #288ff9;
   transition: 0.3s;
 }
 

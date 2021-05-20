@@ -203,7 +203,7 @@
   </div>
   <div>
     <iframe style="border:0; width: 100%; height: 350px;"
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13394.537424778679!2d-60.7036896!3d-32.9342575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf4c96bde897639b5!2sBoccella%20Metalurgica!5e0!3m2!1ses!2sar!4v1617990895385!5m2!1ses!2sar"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6329258399674!2d-60.70598228436236!3d-32.934295280924786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b653340106fe05%3A0x55d8b1fd94d24397!2sSol%C3%ADs%20602%2C%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1621473916029!5m2!1ses!2sar"
       frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="container">
@@ -213,7 +213,7 @@
           <div class="address">
             <i class="ri-map-pin-line"></i>
             <h4>Ubicacion:</h4>
-            <p>Solís 602, Rosario, Santa F</p>
+            <p>Solís 602, Rosario, Santa Fe</p>
           </div>
           <div class="email">
             <i class="ri-mail-line"></i>
@@ -223,7 +223,8 @@
           <div class="phone">
             <i class="ri-phone-line"></i>
             <h4>Telefono:</h4>
-            <p>+54 9 3413786491</p>
+            <p>+54 9 3415425283</p>
+            <p>+54 9 4569400</p>
           </div>
         </div>
       </div>

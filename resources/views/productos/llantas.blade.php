@@ -3,55 +3,6 @@
 @section('content')
 @section("content-title", "Llantas agricolas de chapa")
 
-
-<section>
-  <div class="container">
-    <div class="section-title">
-      <h4>Destacadas</h4>
-    </div>
-    <div class="row my-2">
-      <div class="col-lg-12 col-md-6">
-        <div
-          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col d-flex justify-content-center">
-            <a href="{{asset('images/productos/llantas/tapadora.png')}}" data-gall="portfolioGallery"
-              class="venobox preview-link" title="Llantas">
-              <img src="{{asset('images/productos/llantas/tapadora.png')}}" class="product-imagen">
-            </a>
-          </div>
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">Tapadora</strong>
-            <h3 class="mb-0">1” x 12”<small>1/2</small></h3>
-            <p class="card-text">Centro de 56,5 m/m</p>
-            <div class="mb-1 text-muted ">6 perf de 7 m/m P/Amarre maza</div>
-            <div class="my-1">
-              <div class="badge badge-dark">GEORGI</div>
-              <div class="badge badge-dark">ERCA</div>
-              <div class="badge badge-dark">AGROMETAL</div>
-              <div class="badge badge-dark">CRUCIANELLI</div>
-            </div>
-          </div>
-          <div class="col p-4 d-flex flex-column position-static">
-            <table class="table table-striped">
-              <thead>
-                <th>Codigo</th>
-                <th>Medida</th>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>T2001</td>
-                  <td>1” x 12”</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <section id="pisagranos" class="pisagranos bg-light">
   <div class="container">
     <div class="section-title">
